@@ -1,0 +1,69 @@
+.nav-bar{
+    background-color: blue;
+}
+.nav-bar ul{
+    list-style: none; 
+    display: flex;
+    overflow: hidden;
+    padding-left: 0;
+}
+.nav-bar ul li {
+    margin: 10px;
+    margin-right: 0;
+    background-color: white;
+    border-style: solid;
+    border-color: red;
+    padding: 3px;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: goldenrod;
+}
+.nav-bar ul li:hover{
+    background-color: black;
+}
+.head{
+    background-color: red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.flag{
+    float: right;
+}
+.horizontal{
+    display: flex;
+}
+.horizontal div{
+    margin: 10px;
+    border: 2px;
+    border-style: solid;
+    position: relative;
+    width: 33%;
+    height: min-content;
+}
+.title-text{
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: whitesmoke;
+}
+.overlap-text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+    text-shadow: 4px 4px rgb(43, 38, 38);
+}
+.center-photo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+p {
+    color: whitesmoke;
+    text-shadow: 2px, 2px, rgb(43, 38, 38);
+}
